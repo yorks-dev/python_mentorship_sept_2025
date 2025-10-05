@@ -5,7 +5,7 @@
 
 # ex1 : (a and (not b)) or (not c) # similar
 # ex2 : (a and not b) or (not c)  # similar
-# ex3 : a and (not (b or not c))    # not similar
+# ex3 : a and (notayus (b or not c))    # not similar
 # ex4 : a and ((not b) or (not c))   not similar
 
 
@@ -16,3 +16,5 @@
 # -> True and False or True
 # -> False or True
 # -> True
+a = 46
+a += 2
